@@ -89,3 +89,12 @@ body.dark-mode h1, body.dark-mode h2 {
 body.dark-mode button {
   background: var(--accent-dark);
 }
+@media (max-width: 600px) {
+  .container {
+    padding: 8px;
+    margin: 8px;
+  }
+  h1, h2 {
+    font-size: 1.2em;
+  }
+}
