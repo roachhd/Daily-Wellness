@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(135deg, #6C3483 0%, #512E79 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  color: #ece6f6;
+}
+
+.wrapper {
+  max-width: 420px;
+  margin: 46px auto 0 auto;
+  padding-bottom: 48px;
+}
+
+.date-bar {
+  text-align: center;
+  margin: 0 0 18px 0;
+  color: #c1b5e7;
+  font-size: 0.96rem;
+  background: rgba(69,36,103,0.70);
+  border-radius: 16px;
+  padding: 7px 0;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.main-heading {
+  text-align: center;
+  color: #e1b0fc;
+  font-size: 2.1rem;
+  margin-bottom: 2px;
+  margin-top: 0;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  color: #cebff0;
+  margin: 0 0 25px 0;
+  font-size: 1.06rem;
+}
+
+.section {
+  background: rgba(94,63,130,0.97);
+  border-radius: 14px;
+  box-shadow: 0 2px 18px 2px rgba(106,76,195,0.15);
+  margin-bottom: 22px;
+  padding: 22px 20px 18px 20px;
+  border: 1.5px solid rgba(188,140,244,0.11);
+  position: relative;
+}
+
+.section-title {
+  color: #e1b0fc;
+  font-weight: 600;
+  font-size: 1.13rem;
+  margin-bottom: 10px;
+  letter-spacing: 0.01em;
+}
+
+blockquote {
+  background: rgba(152,118,206,0.11);
+  border-left: 4px solid #d7b5f9;
+  margin: 0;
+  padding: 16px 18px 14px 15px;
+  color: #f5e6ff;
+  font-size: 1.14rem;
+  border-radius: 8px;
+  font-style: italic;
+  box-shadow: 0 2px 10px 0 rgba(83,70,151,0.06);
+}
+
+ul {
+  list-style: disc inside;
+  padding-left: 0;
+  margin: 11px 0 0 0;
+  color: #ded6fd;
+  font-size: 1.04em;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.refresh-btn {
+  display: block;
+  width: 100%;
+  margin: 22px 0 0 0;
+  padding: 12px;
+  background: linear-gradient(90deg, #a96cf0 0%, #7342cc 100%);
+  color: #380764;
+  font-size: 1.13rem;
+  border: none;
+  border-radius: 9px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  box-shadow: 0 2px 12px rgba(152,118,206,0.13);
+}
+
+.refresh-btn:hover {
+  background: linear-gradient(90deg, #7342cc 15%, #a96cf0 85%);
+  color: #fff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+  .wrapper {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 24px auto 0 auto;
+  }
+}
